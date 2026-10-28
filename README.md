@@ -1,11 +1,18 @@
-# nawaaaar
+# nawaar.
 
-I build deterministic, offline-first security tooling for AI agents and MCP —
-and I fix real bugs upstream, one reviewable PR at a time.
+*South Asian guy brewing zeros and ones.*
 
-## Landed upstream
+Computational Social Science · Applied AI · Public Policy
 
-Bug fixes and features merged into projects people already depend on:
+I study Computational Social Science at IIT Jodhpur, where my work connects
+social questions with data and computational methods — digital inequality,
+AI governance, and the protections people can actually rely on. Away from
+research hours, I build software and fix things in the open.
+
+## In public, upstream.
+
+Small, reviewable patches — a reproduction case, the fix, a regression test —
+merged into libraries that other people's software already depends on:
 
 | Project | Merged |
 | --- | --- |
@@ -17,19 +24,24 @@ Bug fixes and features merged into projects people already depend on:
 | [xarray-contrib/cf-xarray](https://github.com/xarray-contrib/cf-xarray) | [#674](https://github.com/xarray-contrib/cf-xarray/pull/674), [#675](https://github.com/xarray-contrib/cf-xarray/pull/675) — coordinate and geometry decoding fixes |
 | [sara-czasak/py-simple-wrap](https://github.com/sara-czasak/py-simple-wrap) | [#402](https://github.com/sara-czasak/py-simple-wrap/pull/402) — streaming CSV row iterator for `easy_csv` |
 
-## What I build
+## What I build.
 
-- [agent-config-audit](https://github.com/nawaaaaaAaar/agent-config-audit) — audit AI agent config files for risky permissions, unpinned MCP servers, exfiltrating hooks and prompt-injection patterns; table/JSON/SARIF output, GitHub Action, pre-commit
-- [agent-threat-model](https://github.com/nawaaaaaAaar/agent-threat-model) — describe an LLM-agent system in YAML, get a deterministic STRIDE + OWASP Agentic threat model with a ranked register, Mermaid diagram and residual-risk score
-- [agent-security-skills](https://github.com/nawaaaaaAaar/agent-security-skills) — Claude Code plugin and agentskills.io pack for securing LLM agents: threat modelling, config audits, Semgrep rules, guard hooks, incident DB
-- [agentdojo-mcp](https://github.com/nawaaaaaAaar/agentdojo-mcp) — run AgentDojo's benchmark against real MCP servers; utility, targeted attack success, per-task call traces
-- [agentic-semgrep-rules](https://github.com/nawaaaaaAaar/agentic-semgrep-rules) — Semgrep rules for AI agent code: model output reaching exec/shell/SQL/URLs, user input in system prompts, over-broad tools
+Deterministic, offline-first tooling for AI agents and MCP — the same
+questions as my research, asked from the engineering side: what does this
+system actually do, and who does it protect?
+
+- [agent-config-audit](https://github.com/nawaaaaaAaar/agent-config-audit) — audit AI agent config files for risky permissions, unpinned MCP servers, exfiltrating hooks and prompt-injection patterns
+- [agent-threat-model](https://github.com/nawaaaaaAaar/agent-threat-model) — describe an LLM-agent system in YAML, get a deterministic STRIDE + OWASP Agentic threat model with a ranked register and residual-risk score
+- [agent-security-skills](https://github.com/nawaaaaaAaar/agent-security-skills) — Claude Code plugin and agentskills.io pack for securing LLM agents
+- [agentdojo-mcp](https://github.com/nawaaaaaAaar/agentdojo-mcp) — run AgentDojo's benchmark against real MCP servers
+- [agentic-semgrep-rules](https://github.com/nawaaaaaAaar/agentic-semgrep-rules) — Semgrep rules for AI agent code
 - [ai-agent-incidents](https://github.com/nawaaaaaAaar/ai-agent-incidents) — incident database for AI agent failures
 
 Other work: [adaptive-knowledge-graph](https://github.com/nawaaaaaAaar/adaptive-knowledge-graph) (privacy-first RAG + Bayesian skill tracking), [aequitas](https://github.com/nawaaaaaAaar/aequitas) (bias auditing & fair ML toolkit), [agentic-evolution-harness](https://github.com/nawaaaaaAaar/agentic-evolution-harness) (reproducible agent evaluation), [HA-RohlikCZ](https://github.com/nawaaaaaAaar/HA-RohlikCZ) (Home Assistant integration for Rohlik/Knuspr/Gurkerl/Kifli/Sezamo).
 
-## How I work
+## Elsewhere.
 
-Small PRs with reproduction cases, regression tests and changelogs.
-Offline and deterministic over clever and networked — a check that runs
-everywhere is worth more than one that calls an API.
+Research, writing and photography live at [nawaar.pplx.app](https://nawaar.pplx.app) —
+digital inequality, AI and decolonial thought, and a camera that comes along.
+
+*A check that runs everywhere is worth more than one that calls an API.*
